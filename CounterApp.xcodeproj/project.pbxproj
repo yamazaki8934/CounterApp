@@ -13,6 +13,7 @@
 		8EF623622274173D0049397A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8EF623612274173D0049397A /* Assets.xcassets */; };
 		8EF623652274173D0049397A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8EF623632274173D0049397A /* LaunchScreen.storyboard */; };
 		8EF6236D22741A3D0049397A /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8EF6236C22741A3D0049397A /* ViewController.xib */; };
+		8EF6236F227421A40049397A /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EF6236E227421A40049397A /* ViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		8EF623642274173D0049397A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8EF623662274173D0049397A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8EF6236C22741A3D0049397A /* ViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
+		8EF6236E227421A40049397A /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
 		AD68A75DE27369FCFCE281A7 /* Pods-CounterApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CounterApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CounterApp/Pods-CounterApp.debug.xcconfig"; sourceTree = "<group>"; };
 		D05FEED7BD379315DD1D3FCC /* Pods-CounterApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CounterApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-CounterApp/Pods-CounterApp.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -80,6 +82,7 @@
 			children = (
 				8EF6235A2274173A0049397A /* AppDelegate.swift */,
 				8EF6235C2274173A0049397A /* ViewController.swift */,
+				8EF6236E227421A40049397A /* ViewModel.swift */,
 				8EF623612274173D0049397A /* Assets.xcassets */,
 				8EF623632274173D0049397A /* LaunchScreen.storyboard */,
 				8EF623662274173D0049397A /* Info.plist */,
@@ -211,6 +214,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8EF6235D2274173A0049397A /* ViewController.swift in Sources */,
+				8EF6236F227421A40049397A /* ViewModel.swift in Sources */,
 				8EF6235B2274173A0049397A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
